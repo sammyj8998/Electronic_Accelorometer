@@ -1,6 +1,6 @@
 #include "ADXL345.h" //This is the library for the accelorometer, where four functions are used 
 #include "mbed.h"   //This has to be included for the code to function on mbed
-#include "TextLCD.h" //This allows the LCD to display information
+#include "TextLCD.h" //This is the library which allows the LCD to display information
 
 ADXL345 accelerometer(p5, p6, p7, p8); 
 TextLCD lcd(p19, p20, p21, p22, p23, p24); 
